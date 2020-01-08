@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 4000px) {
+@media screen and (max-width: 1000px) {
   #paragraphLuna{
     flex-direction: column;
   }
@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (min-width: 4000px) {
+@media screen and (min-width: 1000px) {
   #iconAdemen, #ademenExplain, #iconMeter, #meterExplain, #iconComfort, #comfortExplain{
     margin-left: 45vw;
   }
