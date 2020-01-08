@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 666px) {
+  #logo {
+    margin-left: 2em;
+  }
+
+  #oneLiner {
+    padding-top: 5em;
+  }
+
+  #introduction {
+    margin-top: 15vw;
+  }
+}
+
+@media screen and (max-width: 4000px) {
+  #paragraphLuna{
+    flex-direction: column;
+  }
+
+  #lunaIMG {
+    width: 80%;
+    margin-top: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 4000px) {
+  #iconAdemen, #ademenExplain, #iconMeter, #meterExplain, #iconComfort, #comfortExplain{
+    margin-left: 45vw;
+  }
+
+  #ademenExplain{
+    margin-top: 18vw;
+  }
+
+  #ademenTitle{
+    margin-left: 58vw;
+  }
+
+  #iconMeter, #iconComfort{
+     margin-top: 15vw;
+   }
+
+  #hartslagmeterTitle {
+    margin: 16vw 0 0 55vw;
+  }
+
+  #meterExplain, #comfortExplain{
+    margin-top: 25vw;
+  }
+
+  #comfortTitle {
+    margin: 16vw 0 0 54vw;
+  }
+
+  #luna_blauw {
+    margin: -38vw 0 0 5vw;
+  }
+
+  #hartslagGIFone {
+    margin-left: 15vw;
+  }
+
+  #hartslagGIFtwo {
+    margin: -17.5vw 0 0 31vw;
+  }
+
+  #opladenIMG{
+    margin: -32vw 0 0 45vw;
+  }
+
+  #aanIcon {
+    margin-top: 25vw
+  }
+
+  #aanTitle {
+    margin-top: 26vw;
+  }
+
+  #aanExplain {
+    margin-top: 35vw;
+  }
+
+  #uitIcon {
+    margin: 12vw 0 0 10vw;
+  }
+
+  #uitTitle {
+    margin-top: 13vw;
+  }
+
+  #uitExplain {
+    margin-top: 22vw;
+  }
+
+  #aanExplain, #uitExplain {
+    width: 30vw;
+  }
+
+  #personaOne {
+    width: 15vw;
+    position: absolute;
+    margin: 4vw 0 0 10vw;
+  }
+
+  #personaTwo {
+    margin-top: 43vw;
+  }
+
+  #starFour {
+    margin-top: 24vw;
+  }
+
+  #starFive {
+    margin-top: 30vw;
+  }
+}

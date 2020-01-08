@@ -1,0 +1,283 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #011428;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* banner */
+#backgroundIMG {
+  position: absolute;
+  max-width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+  margin-top: 7vw;
+}
+
+#logo {
+  width: 20vw;
+  position: absolute;
+  margin-left: 5vw;
+}
+
+#oneLiner {
+  font-family: brainflower;
+  font-weight: lighter;
+  font-size: 5vmax;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  padding-top: 30vw;
+}
+
+/* section titles */
+.sectionTitle {
+  font-family: roboto;
+  font-weight: lighter;
+  color: white;
+  font-size: 4vmax;
+  margin-left: 1em;
+  margin-top: 20vw;
+}
+
+#sectionReview{
+  margin-top: 8vw;
+}
+
+/* paragraphs titles */
+.paragraphTitle {
+  font-family: brainflower;
+  font-weight: lighter;
+  color: white;
+  font-size: 5vmax;
+  margin-left: 10vw;
+  margin-bottom: 2px;
+}
+
+#ademenTitle{
+  margin: 11vw 0 0 24vw;
+}
+
+#hartslagmeterTitle {
+  margin: 21vw 0 0 21vw;
+}
+
+#comfortTitle {
+  margin: 21vw 0 0 20vw;
+}
+
+#aanTitle {
+  margin: 20vw 0 0 22vw;
+}
+
+#uitTitle {
+  margin: 15vw 0 0 22vw;
+}
+
+#personaOneTitle, #personaTwoTitle{
+  position: absolute;
+  font-size: 4vmax;
+}
+
+#personaOneTitle {
+  margin: 5vw 0 0 30vw;
+}
+
+#personaTwoTitle {
+  margin: 45vw 0 0 30vw;
+}
+
+/* paragraphs */
+.paragraphContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph {
+  font-family: roboto;
+  font-weight: lighter;
+  color: white;
+  font-size: 3vmin;
+  margin: 0 10vw 0 10vw;
+}
+
+#paragraphLuna{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#lunaIMG {
+  width: 30vw;
+  margin: -5vw 10vw 0 0;
+}
+
+#ademenExplain, #meterExplain, #comfortExplain, #aanExplain, #uitExplain{
+  position: absolute;
+}
+
+#ademenExplain {
+  margin-top: 20vw;
+}
+
+#meterExplain {
+  margin-top: 31vw;
+}
+
+#comfortExplain {
+  margin-top: 32vw;
+}
+
+#aanExplain {
+  margin-top: 32vw;
+}
+
+#uitExplain {
+  margin-top: 27vw;
+}
+
+#reviewPersonaOne, #reviewPersonaTwo{
+  position: absolute;
+}
+#reviewPersonaOne {
+  margin: 13vw 10vw 0 30vw;
+}
+#reviewPersonaTwo {
+  margin: 52vw 10vw 0 30vw;
+}
+
+/* video about Luna */
+video {
+  width: 75%;
+}
+
+#video {
+  text-align: center;
+  margin-top: 10vw;
+}
+
+/* icons */
+.icon{
+  margin-left: 10vw;
+  position: absolute;
+}
+
+#iconAdemen{
+  width: 10vw;
+  margin-top: 11vw;
+}
+
+#iconMeter {
+  width: 7vw;
+  margin-top: 20vw;
+}
+
+#iconComfort {
+  width: 6vw;
+  margin-top: 20vw;
+}
+
+#aanIcon, #uitIcon {
+  width: 8vw;
+}
+
+#aanIcon{
+  margin-top: 20vw;
+}
+
+#uitIcon {
+  margin-top: 15vw;
+}
+
+#personaOne, #personaTwo {
+  width: 15vw;
+}
+
+#personaOne{
+  margin-top: 12vw;
+}
+
+#personaTwo {
+  margin-top: 47vw;
+}
+
+/* blue moon interaction */
+#luna_blauw {
+  width: 35vw;
+  margin: 20vw 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#hartslagGIFone {
+  position: absolute;
+  width: 8vw;
+  margin: -35vw 0 0 41.5vw;
+}
+
+#hartslagGIFtwo {
+  position: absolute;
+  width: 8vw;
+  margin: -17vw 0 0 57vw;
+}
+
+/* pink moon image */
+#opladenIMG {
+  display: block;
+  margin: 15vw auto 0 auto;
+  width: 50vw;
+}
+
+/* moons on the background */
+#backgroundMoonOne {
+  position: absolute;
+  width: 110vw;
+  transform: rotate(306deg);
+  z-index: -1;
+  margin: 10vw 0 0 -10vw;
+  opacity: 0.75;
+}
+
+#backgroundMoonTwo{
+  position: absolute;
+  width: 110vw;
+  transform: rotate(306deg);
+  z-index: -1;
+  margin: -30vw 0 0 -10vw;
+  opacity: 0.75;
+}
+
+/* stars on the background */
+.stars{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.75;
+}
+
+#starOne {
+  width: 10vw;
+  margin: 38vw 0 0 82vw;
+}
+
+#starFour {
+  width: 6vw;
+  margin: 33vw 0 0 78vw;
+}
+
+#starFive {
+  width: 3vw;
+  margin: 38vw 0 0 75vw;
+}
+
+/* footer */
+footer {
+  font-family: brainflower;
+  font-weight: lighter;
+  font-size: 1vmax;
+  color: white;
+  margin-top: 75vw;
+  text-align: center;
+}
