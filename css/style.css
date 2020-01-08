@@ -7,7 +7,7 @@
 
   src: url(fonts/brain_flower_euro-webfont.woff) format('woff'),
   url(fonts/brain_flower_euro-webfont.woff2) format('woff2'),
-    url(fonts/Brain Flower Euro.ttf) format('truetype');
+    url(fonts/brain_flower_euro-webfont.ttf) format('truetype');
 }
 
 body {
