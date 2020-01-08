@@ -1,13 +1,13 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
 @font-face{
   font-family: 'brainflower';
 
-  src: url(../fonts/brain_flower_euro-webfont.woff) format('woff'),
-  url(../fonts/brain_flower_euro-webfont.woff2) format('woff2'),
-    url(../fonts/brain_flower_euro-webfont.ttf) format('truetype');
+  src: url('../fonts/brain_flower_euro-webfont.woff') format('woff'),
+  url('../fonts/brain_flower_euro-webfont.woff2') format('woff2'),
+    url('../fonts/brain_flower_euro-webfont.ttf') format('truetype');
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 body {
