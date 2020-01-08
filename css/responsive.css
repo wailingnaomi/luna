@@ -27,7 +27,9 @@
     margin-right: auto;
     margin-left: auto;
   }
+}
 
+@media screen and (min-width: 1000px){
   #iconAdemen, #ademenExplain, #iconMeter, #meterExplain, #iconComfort, #comfortExplain{
     margin-left: 45vw;
   }
