@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 750px){
   #iconAdemen, #ademenExplain, #iconMeter, #meterExplain, #iconComfort, #comfortExplain{
     margin-left: 45vw;
   }
